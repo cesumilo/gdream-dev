@@ -1,5 +1,3 @@
-import { useSignal } from "@preact/signals";
-import Counter from "../islands/Counter.tsx";
 import Card from "../islands/Card.tsx";
 
 export default function Home() {
