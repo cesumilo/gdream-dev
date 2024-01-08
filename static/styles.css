@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    --color-background: #081826;
+    --color-background-2: #042745;
+    --color-background-3: #073E6E;
+    --primary: #ffffff;
+    --secondary: #9CD9B6;
+    --green: #568C1F;
+    --brown:#8C4227;
+    --color-link: #F2AE30;
+
+    color: var(--primary);
+}
+
+.background {
+    background-color: var(--color-background);
+}
+.background-2 {
+    background-color: var(--color-background-2);
+}
+.background-3 {
+    background-color: var(--color-background-3);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-brown{
+    background-color: var(--brown);
+}
