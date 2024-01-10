@@ -2,25 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+:root {
     --color-background: #081826;
     --color-background-2: #042745;
     --color-background-3: #073E6E;
     --primary: #ffffff;
     --secondary: #9CD9B6;
     --green: #568C1F;
-    --brown:#8C4227;
+    --brown: #8C4227;
     --color-link: #F2AE30;
 
+}
+
+html {
     color: var(--primary);
 }
 
 .background {
     background-color: var(--color-background);
 }
+
 .background-2 {
     background-color: var(--color-background-2);
 }
+
 .background-3 {
     background-color: var(--color-background-3);
 }
@@ -28,9 +33,181 @@ html {
 .bg-secondary {
     background-color: var(--secondary);
 }
+
 .bg-green {
     background-color: var(--green);
 }
-.bg-brown{
+
+.bg-brown {
     background-color: var(--brown);
+}
+
+
+
+@media (min-width: 1440px) {
+
+    /* CSS */
+    .header {
+        height: 15%;
+    }
+
+    .content {
+        height: 80%;
+    }
+
+    .footer {
+        height: 5%;
+    }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1280px) and (max-width: 1339px) {
+
+    /* CSS */
+    .header {
+        height: 23%;
+    }
+
+    .content {
+        height: 70%;
+    }
+
+    .footer {
+        height: 7%;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1279px) {
+
+    /* CSS */
+    .header {
+        height: 20%;
+    }
+
+    .content {
+        height: 70%;
+    }
+
+    .footer {
+        height: 10%;
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+
+    /* CSS */
+    .header {
+        height: 18%;
+    }
+
+    .content {
+        height: 75%;
+    }
+
+    .footer {
+        height: 13%;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 820px) {
+
+    /* CSS */
+    .header {
+        height: 18%;
+    }
+
+    .content {
+        height: 75%;
+    }
+
+    .footer {
+        height: 13%;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    .header {
+        height: 50%;
+    }
+
+    .content {
+        height: 70%;
+    }
+
+    .footer {
+        height: 10%;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    .header {
+        height: 60%;
+    }
+
+    .content {
+        height: 70%;
+    }
+
+    .footer {
+        height: 10%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .header {
+        height: 30%;
+    }
+
+    .content {
+        height: 70%;
+    }
+
+    .footer {
+        height: 10%;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+
+    /* CSS */
+    .header {
+        height: 40%;
+    }
+
+    .content {
+        height: 70%;
+    }
+
+    .footer {
+        height: 13%;
+    }
 }

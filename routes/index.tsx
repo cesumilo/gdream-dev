@@ -3,7 +3,7 @@ import Card from "../islands/Card.tsx";
 export default function Home() {
   return (
     <div class="h-screen w-screen">
-      <div class="px-4 pt-5 mx-auto background" style="height:20%;">
+      <div class="header px-4 pt-5 mx-auto background">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <img
             src="/logo.svg"
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="px-4 py-8 mx-auto background-2 overflow-scroll" style="height:70%;">
+      <div class="content px-4 py-8 mx-auto background-2 overflow-scroll">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <p class="text-4xl font-bold">Our games</p>
 
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div class="px-4 py-8 mx-auto background-3" style="height:10%;">
+      <div class="footer px-4 py-8 mx-auto background-3">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <p class="text-xs font-bold">Copyrights 2024 @ GDream Studio</p>
         </div>
