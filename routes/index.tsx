@@ -2,8 +2,8 @@ import Card from "../islands/Card.tsx";
 
 export default function Home() {
   return (
-    <div class="h-screen w-screen">
-      <div class="header px-4 pt-5 mx-auto background">
+    <>
+      <header class="row px-4 pt-5 pb-7 mx-auto background">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <img
             src="/logo.svg"
@@ -15,31 +15,38 @@ export default function Home() {
             An independant video game studio
           </h2>
         </div>
-      </div>
+      </header>
 
-      <div class="content px-4 py-8 mx-auto background-2 overflow-scroll">
+      <section class="row content px-4 py-8 mx-auto background-2">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <p class="text-4xl font-bold">Our games</p>
 
           <div class="grid grid-flow-row col-auto my-8">
             <Card
-              title="Coming soon..."
-              description="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Voluptatibus quia, nulla! Maiores et perferendis eaque,
-      exercitationem praesentium nihil."
+              title="Farm it!"
+              description="Coming soon... 😏"
               imgSrc="/card-top.jpg"
               tags={["puzzle", "3D", "godot", "farming"]}
             />
 
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="footer px-4 py-8 mx-auto background-3">
+      <section class="row twitch background-2">
+        <div class="flex flex-col items-center justify-center">
+          <p class="text-4xl font-bold">We are live!</p>
+          <div id="twitch-embed"></div>
+        </div>
+      </section>
+
+      <footer class="row px-4 py-8 mx-auto background-3">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <p class="text-xs font-bold">Copyrights 2024 @ GDream Studio</p>
         </div>
-      </div>
-    </div>
+      </footer>
+
+      <script src="twitch.js" type="text/javascript"></script>
+    </>
   );
 }
