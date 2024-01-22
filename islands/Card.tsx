@@ -8,7 +8,7 @@ interface CardProps {
 export default function Card(props: CardProps) {
   return (
     <a href="#" class="mx-4 my-4">
-      <div class="max-w-sm rounded overflow-hidden shadow-lg background">
+      <div class="card max-w-sm rounded overflow-hidden shadow-lg background">
         <img
           class="w-full"
           src={props.imgSrc}

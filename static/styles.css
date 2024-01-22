@@ -60,6 +60,13 @@ section.twitch {
     padding: 2rem;
 }
 
+.card {
+    transition: all .2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
 .background {
     background-color: var(--color-background);
 }
