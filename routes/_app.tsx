@@ -8,7 +8,7 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>GDream Studio</title>
         <link rel="stylesheet" href="/styles.css" />
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+	<link rel="icon" type="image/x-icon" href="/favicon.png" />
       </head>
       <body>
         <Component />

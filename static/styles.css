@@ -6,11 +6,41 @@
     --color-background: #081826;
     --color-background-2: #042745;
     --color-background-3: #073E6E;
+
     --primary: #ffffff;
     --secondary: #9CD9B6;
     --green: #568C1F;
     --brown: #8C4227;
     --color-link: #F2AE30;
+
+    --while: #ffffff;
+    --white-100: #333333;
+    --white-200: #666666;
+    --white-300: #999999;
+    --white-400: #cccccc;
+    --white-500: #ffffff;
+
+    --black: #1A1B17;
+    --black-100: #050605;
+    --black-200: #0b0b09;
+    --black-300: #10110e;
+    --black-400: #151613;
+    --black-500: #1a1b17;
+    --black-600: #4a4d42;
+    --black-700: #7a7f6c;
+    --black-800: #a7ab9c;
+    --black-900: #d2d5cd;
+
+    --red: #fe0908;
+    --red-100: #340000;
+    --red-200: #680101;
+    --red-300: #9b0101;
+    --red-400: #cd0101;
+    --red-500: #fe0908;
+    --red-600: #fe3838;
+    --red-700: #fe6a6a;
+    --red-800: #ff9c9c;
+    --red-900: #ffcdcd;
 }
 
 html,
@@ -52,29 +82,31 @@ footer.row {
     text-align: center;
     width: 100%;
 }
-section.twitch {
-    width: 100%;
-}
-#twitch-embed {
-    width: 100%;
-    padding: 2rem;
+footer {
+    color: var(--black-300);
 }
 
 .card {
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(254, 106, 106, 0.53);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(254, 106, 106, 0.53);
+    box-shadow: 0px 20px 20px -17px rgba(254, 106, 106, 0.53);
     transition: all .2s ease-in-out;
 }
 .card:hover {
     transform: scale(1.1);
+    -webkit-box-shadow: 0px 20px 35px -16px rgba(254, 106, 106, 0.65);
+    -moz-box-shadow: 0px 20px 35px -16px rgba(254, 106, 106, 0.65);
+    box-shadow: 0px 20px 35px -16px rgba(254, 106, 106, 0.65);
 }
 
 .background {
-    background-color: var(--color-background);
+    background-color: var(--white-500);
 }
 .background-2 {
-    background-color: var(--color-background-2);
+    background-color: var(--black);
 }
 .background-3 {
-    background-color: var(--color-background-3);
+    background-color: var(--black-300);
 }
 .bg-secondary {
     background-color: var(--secondary);
@@ -83,5 +115,9 @@ section.twitch {
     background-color: var(--green);
 }
 .bg-brown {
-    background-color: var(--brown);
+    background-color: var(--red);
+}
+
+.hidden {
+    display: none;
 }

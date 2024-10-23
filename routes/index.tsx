@@ -7,11 +7,11 @@ export default function Home() {
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <img
             src="/logo.svg"
-            width="128"
+            width="256"
             alt="the GDream Studio logo: a black and grey background with a red G-letter and a white DREAM text."
           />
-          <h1 class="text-4xl font-bold mt-4">GDream Studio</h1>
-          <h2 class="text-1xl font-bold mt-2">
+          <h1 class="text-4xl font-bold mt-4 hidden">GDream Studio</h1>
+          <h2 class="text-1xl font-bold mt-2 hidden">
             An independant video game studio
           </h2>
         </div>
@@ -33,20 +33,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section class="row twitch background-2">
-        <div class="flex flex-col items-center justify-center">
-          <p class="text-4xl font-bold">We are live!</p>
-          <div id="twitch-embed"></div>
-        </div>
-      </section>
-
-      <footer class="row px-4 py-8 mx-auto background-3">
+      <footer class="row px-4 py-8 mx-auto background">
         <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <p class="text-xs font-bold">Copyrights 2024 @ GDream Studio</p>
         </div>
       </footer>
-
-      <script src="twitch.js" type="text/javascript"></script>
     </>
   );
 }
