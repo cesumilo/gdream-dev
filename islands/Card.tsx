@@ -15,7 +15,7 @@ export default function Card(props: CardProps) {
           alt="Sunset in the mountains"
         />
         <div class="px-6 py-4">
-          <div class="font-bold text-xl mb-2">{props.title}</div>
+          <div class="font-bold text-xl mb-2 encrypted-text">{props.title}</div>
           <p class="text-white text-base">{props.description}</p>
         </div>
         <div class="px-6 pt-4 pb-2">

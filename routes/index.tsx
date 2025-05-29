@@ -8,7 +8,7 @@ export default function Home() {
           <img
             src="/logo.svg"
             width="256"
-            alt="the GDream Studio logo: a black and grey background with a red G-letter and a white DREAM text."
+            alt="The GDream Studio logo: the logo features a stylized design with the text 'GDREAM STUDIO'. The main visual element is a game controller, depicted in black and white, with a polar bear silhouette integrated into the controller. The polar bear appears to be standing on the bottom part of the controller. Above the controller, there are symbols representing a red cross and three red dots, which resemble the buttons on a game controller. The word 'GDREAM' is written in bold, black letters, while 'STUDIO' is written below it in smaller, red letters. The overall design is modern and playful, suggesting a connection to gaming or interactive media."
           />
           <h1 class="text-4xl font-bold mt-4 hidden">GDream Studio</h1>
           <h2 class="text-1xl font-bold mt-2 hidden">
@@ -23,10 +23,10 @@ export default function Home() {
 
           <div class="grid grid-flow-row col-auto my-8">
             <Card
-              title="Farm it!"
-              description="Coming soon... 😏"
-              imgSrc="/card-top.jpg"
-              tags={["puzzle", "3D", "godot", "farming"]}
+              title="It's about quests"
+              description="Cooking... 🧑‍🍳"
+              imgSrc="/kwest.jpg"
+              tags={["Mobile", "World-wide"]}
             />
 
           </div>

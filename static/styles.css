@@ -121,3 +121,21 @@ footer {
 .hidden {
     display: none;
 }
+
+.encrypted-text {
+    display: inline-block;
+    font-size: 24px;
+    animation: encrypt 3s infinite ease-in-out;
+}
+
+@keyframes encrypt {
+  0% {
+    filter: blur(6px);
+  }
+  50% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(6px);
+  }
+}
