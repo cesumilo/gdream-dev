@@ -28,14 +28,28 @@ export default function Home() {
               imgSrc="/kwest.jpg"
               tags={["Mobile", "World-wide"]}
             />
-
           </div>
         </div>
       </section>
 
       <footer class="row px-4 py-8 mx-auto background">
-        <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-          <p class="text-xs font-bold">Copyrights 2024 @ GDream Studio</p>
+        <div class="flex flex-wrap justify-between">
+          <div class="w-full mb-2">
+            <h5 class="text-xl font-bold mb-4">Need help? Contact Us</h5>
+            <p class="mb-4">
+              Email:{" "}
+              <a
+                href="mailto:support@gdream.dev"
+                class="text-gray-400 hover-red"
+              >
+                support@gdream.dev
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-1 pt-1 text-center">
+          <p>&copy; 2025 GDream Studio. All rights reserved.</p>
         </div>
       </footer>
     </>

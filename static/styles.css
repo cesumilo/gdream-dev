@@ -117,6 +117,9 @@ footer {
 .bg-brown {
     background-color: var(--red);
 }
+.hover-red:hover {
+    color: var(--red);
+}
 
 .hidden {
     display: none;
